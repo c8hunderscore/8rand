@@ -81,17 +81,17 @@ You can generate `true` or `false` with a given bias.
 `chance` is the only argument.
 default value is 50, cannot be more than 100, cannot be less than 0.
 ```js
-console.log(bool());    // 50% chance of being `true`
-console.log(bool(90));  // 90% chance of being `true`
-console.log(bool(10));  // 90% chance of being `false`
-console.log(bool(100)); // `true`
-console.log(bool(0));   // `false`
+console.log(rand.bool());    // 50% chance of being `true`
+console.log(rand.bool(90));  // 90% chance of being `true`
+console.log(rand.bool(10));  // 90% chance of being `false`
+console.log(rand.bool(100)); // `true`
+console.log(rand.bool(0));   // `false`
 ```
 
 ## Randomize array order
 This one is hopefully self-explanatory
 ```js
-console.log(order([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])); // New unsorted array
+console.log(rand.order([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])); // New unsorted array
 ```
 
 ## Raw
