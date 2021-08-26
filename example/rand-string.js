@@ -1,4 +1,4 @@
-import { string } from "../src/index.js";
+const { string } = require("..");
 
 console.log(string());
 console.log(string(30));

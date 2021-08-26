@@ -1,4 +1,4 @@
-import { decimal } from "../src/index.js";
+const { decimal } = require("..");
 
 console.log(decimal());
 console.log(decimal(1));

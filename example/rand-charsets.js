@@ -1,11 +1,11 @@
-import {
+const {
 	char,
 	string,
 	charsets,
-} from "../src/index.js";
+} = require("..");
 
 // To view control chars easier
-import { inspect } from "util";
+const { inspect } = require("util");
 
 console.log(inspect(char(0, 20, charsets.ASCII)));
 console.log(inspect(string(20, charsets.ASCIINoSpace)));

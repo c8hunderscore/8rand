@@ -1,4 +1,4 @@
-import { raw } from "../src/index.js";
+const { raw } = require("..");
 
 console.log(raw());
 

@@ -115,15 +115,12 @@ function raw() {
 	return Math.random();
 }
 
-// export default rand;
-export {
-	rand as default,
-	char,
-	string,
-	decimal,
-	bool,
-	order,
-	charsets,
-	raw,
-};
+module.exports = rand;
+module.exports.char = char;
+module.exports.string = string;
+module.exports.decimal = decimal;
+module.exports.bool = bool;
+module.exports.order = order;
+module.exports.order = order;
+module.exports.raw = raw;
 

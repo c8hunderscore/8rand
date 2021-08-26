@@ -1,4 +1,4 @@
-import rand from "../src/index.js";
+const rand = require("..");
 
 console.log(rand());      // Any integer between 0 and 10
 console.log(rand(5));     // Any integer between 5 and 15

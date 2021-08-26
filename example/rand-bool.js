@@ -1,4 +1,4 @@
-import { bool } from "../src/index.js";
+const { bool } = require("..");
 
 console.log(50, bool());
 console.log(90, bool(90));
