@@ -1,0 +1,12 @@
+{
+  "name": "8rand",
+  "version": "0.1.0",
+  "description": "Generate random things",
+  "type": "module",
+  "main": "src/index.js",
+  "author": "c8h_",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
